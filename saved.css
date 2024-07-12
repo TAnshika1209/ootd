@@ -1,0 +1,126 @@
+
+.video-section-child {
+    position: absolute;
+    top: 154px;
+    left: 472px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+
+.saved {
+    position: absolute;
+    top: 58px;
+    left: 146px;
+    font-size: 40px;
+    font-family: JejuMyeongjo;
+}
+.video-section-item {
+    position: absolute;
+    top: 154px;
+    left: 146px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-inner {
+    position: absolute;
+    top: 154px;
+    left: 798px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 154px;
+    left: 1152px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child1 {
+    position: absolute;
+    top: 526px;
+    left: 146px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child2 {
+    position: absolute;
+    top: 526px;
+    left: 472px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child3 {
+    position: absolute;
+    top: 526px;
+    left: 798px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child4 {
+    position: absolute;
+    top: 526px;
+    left: 1152px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child5 {
+    position: absolute;
+    top: 898px;
+    left: 146px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child6 {
+    position: absolute;
+    top: 898px;
+    left: 472px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child7 {
+    position: absolute;
+    top: 898px;
+    left: 798px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section-child8 {
+    position: absolute;
+    top: 898px;
+    left: 1152px;
+    background-color: #d9d9d9;
+    width: 266px;
+    height: 316px;
+}
+.video-section {
+    width: 100%;
+    position: relative;
+    background-image:  linear-gradient(rgba(245, 243, 243, 0.4),rgba(71, 51, 51, 0.9)),url('background.jpg');
+    height: 1167px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 700px;
+    color: #634b4b;
+    font-family: Inter;
+}
+.save-icon {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    right: 50px;
+    font-size: 30px;
+    color: #654a4a;
+    cursor: pointer;
+    font-size: 50px;
+}

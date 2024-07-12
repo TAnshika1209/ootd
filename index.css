@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image:  url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.male-user-icon{
+    position: absolute;
+    top: 25px;
+    left: 93%;
+    font-size: 50px;
+    color : rgb(46, 25, 25);
+}
+.home-icon{
+    position: absolute;
+    top: 155px;
+    left: 100px;
+    font-size:45px;
+    color : rgb(54, 35, 35);
+    text-decoration: none;
+}
+.home a{
+    position: absolute;
+    top: 170px;
+    left: 160px;
+    font-size: 155%;
+    color : rgb(88, 35, 35);
+    text-decoration: none;
+    font-family: JejuMyeongjo;
+}
+.search-icon{
+    position: absolute;
+    top: 255px;
+    left: 100px;
+    font-size:45px;
+    color : rgb(54, 35, 35);
+    text-decoration: none;
+}
+.search a{
+    position: absolute;
+    top: 270px;
+    left: 160px;
+    font-size: 155%;
+    color : rgb(88, 35, 35);
+    text-decoration: none;
+    font-family: JejuMyeongjo;
+}
+.plus-icon{
+    position: absolute;
+    top: 355px;
+    left: 100px;
+    font-size:45px;
+    color : rgb(54, 35, 35);
+    text-decoration: none;
+}
+.create a{
+    position: absolute;
+    top: 370px;
+    left: 160px;
+    font-size: 155%;
+    color : rgb(88, 35, 35);
+    text-decoration: none;
+    font-family: JejuMyeongjo;
+}
+.save-icon{
+    position: absolute;
+    top: 455px;
+    left: 100px;
+    font-size:45px;
+    color : rgb(54, 35, 35);
+    text-decoration: none;
+}
+.saved a{
+    position: absolute;
+    top: 470px;
+    left: 160px;
+    font-size: 155%;
+    color : rgb(88, 35, 35);
+    text-decoration: none;
+    font-family: JejuMyeongjo;
+}
+.explore-icon{
+    position: absolute;
+    top: 555px;
+    left: 100px;
+    font-size:45px;
+    color : rgb(54, 35, 35);
+    text-decoration: none;
+}
+.explore a{
+    position: absolute;
+    top: 570px;
+    left: 160px;
+    font-size: 155%;
+    color : rgb(88, 35, 35);
+    text-decoration: none;
+    font-family: JejuMyeongjo;
+}
+.ootd a{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 48px;
+    color : rgb(54, 35, 35);
+    text-decoration: none;
+    font-family: 'Aguafina Script';
+}
