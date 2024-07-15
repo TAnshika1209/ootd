@@ -11,7 +11,6 @@
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
-    display: flex;
 }
 .nav{
     width: 100%;
@@ -122,18 +121,14 @@
     text-decoration: none;
     font-family: 'Aguafina Script';
 }
-.video-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* adjust the height as needed */
-}
+
 
 .video1{
     position: absolute;
     top: 50px;
     left: 400px;
     width: 800px;
+    
    
 }
 .video2{

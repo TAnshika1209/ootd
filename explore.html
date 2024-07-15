@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" />
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  linear-gradient(rgba(245, 243, 243, 0.4),rgba(71, 51, 51, 0.9)),url('background.jpg');
+    min-height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+} 
+.container.reels_videos{
+    position: relative;
+    width: 330px;
+    height: 540px;
+    overflow-y : auto; 
+    scroll-snap-type : y mondatory ; 
+  
+}
+.container.reels_videos.video{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+ object-fit: cover;
+ scroll-snap-align: start; 
+ 
+
+}
+
+.container.reels_videos.video.video{
+position: absolute;
+top: 0;
+left: 0;
+padding: 1.5px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.container.reels_videos.video.top{
+position:absolute ;
+top: 10px;
+left: 0;
+padding: 0 10px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+color: #fff;
+
+}
+.container.reels_videos.video.top h4{
+color: white;
+letter-spacing: .3px;
+font-weight: 500;
+
+}
+.container.reels_videos.video.top h4 i{
+position: absolute;
+font-size: 5px;
+user-select: none;
+
+}
+ .container.reels_videos.video.icons{
+    position:absolute;
+    bottom: 1000px;
+    right: 50px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+} 
+.container.reels_videos.video.icons div{
+    display: flex;
+    flex-direction: column;
+
+}
+.container.reels_videos.video.icons i{
+    position: absolute;
+    font-size: 8cqmin;
+
+}
+.container.reels_videos.video.icons img{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #fff;
+    margin-right: 5px;
+}
+.like-icon1, .send-icon1, .more-icon1{
+    left: 967px;
+    font-size:35px;
+    position: absolute;
+    text-decoration: none;
+}
+.like-icon1{
+    top: 550px;
+    color : rgb(151, 13, 3);
+}
+.send-icon1{
+    top: 600px;
+    font-size:35px;
+    color : rgb(40, 2, 2);
+}
+.more-icon1{
+    top: 650px;
+    color : rgb(11, 0, 0);
+}
+
+.like-icon2, .send-icon2, .more-icon2{
+    left: 967px;
+    font-size:35px;
+    position: absolute;
+    text-decoration: none;
+}
+.like-icon2{
+    top: 1300px;
+    color : rgb(151, 13, 3);
+}
+.send-icon2{
+    top: 1350px;
+    color : rgb(40, 2, 2);
+}
+.more-icon2{
+    top: 1400px;
+    color : rgb(11, 0, 0);
+}
+.like-icon3, .send-icon3, .more-icon3{
+    left: 967px;
+    font-size:35px;
+    position: absolute;
+    text-decoration: none;
+}
+.like-icon3{
+    top: 2050px;
+    color : rgb(151, 13, 3);
+}
+.send-icon3{
+    top: 2100px;
+    color : rgb(40, 2, 2);
+}
+.more-icon3{
+    top: 2150px;
+    color : rgb(11, 0, 0);
+}
+.like-icon4, .send-icon4, .more-icon4{
+    left: 967px;
+    font-size:35px;
+    position: absolute;
+    text-decoration: none;
+}
+.like-icon4{
+    top: 2800px;
+    color : rgb(151, 13, 3);
+}
+.send-icon4{
+    top: 2850px;
+    color : rgb(40, 2, 2);
+}
+.more-icon4{
+    top: 2900px;
+    color : rgb(11, 0, 0);
+}
+video{
+    height: 750px;
+    width: 400px;
+}
+.ootd a{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 48px;
+    color : rgb(54, 35, 35);
+    text-decoration: none;
+    font-family: 'Aguafina Script';
+}
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="ootd">
+            <a href ="index.html">#OOTD</a>
+        </div>
+        <div class="reels_videos">
+            <div class="video">
+                <video src="shoes.Mp4"></video>
+                <i class="material-icons like-icon1">favorite</i>
+                <i class="material-icons send-icon1">send</i>
+                <i class="material-icons more-icon1">more_vert</i>
+            </div>
+
+            <div class="video">
+                <video src="fashion.mp4"></video>
+                
+                <i class="material-icons like-icon2">favorite</i>
+                <i class="material-icons send-icon2">send</i>
+                <i class="material-icons more-icon2">more_vert</i>
+            </div>
+
+            <div class="video">
+                <video src="fashion2.mp4"></video>
+                
+                
+                <i class="material-icons like-icon3">favorite</i>
+                <i class="material-icons send-icon3">send</i>
+                <i class="material-icons more-icon3">more_vert</i>
+            </div>
+
+            <div class="video">
+                <video src="fashion3.mp4"></video>
+                <i class="material-icons like-icon4">favorite</i>
+                <i class="material-icons send-icon4">send</i>
+                <i class="material-icons more-icon4">more_vert</i>
+            </div>
+
+        </div>
+
+    </div>
+  <script>
+    const video = document.querySelectorAll('.container video');
+
+for(let i = 0; i < video.length; i++){
+    video[i].addEventListener("mouseenter", () => {
+        video[i].currentTime = 0;   
+        video[i].play();
+        video[i].loop = true;
+
+        video[i].onclick = () => {
+            if(video[i].paused){
+                video[i].play();
+            }else{
+                video[i].pause();
+            }
+            like_counter.classList.remove("active");
+            comment_counter.classList.remove("active");
+            send_video.classList.remove("active");
+            share_video.classList.remove("active");
+        }
+        // reels video like button setting 
+        const parentDiv = video[i].parentElement;
+        const like_btn = parentDiv.querySelector('.options .bi-heart');
+        const comment_btn = parentDiv.querySelector('.options .bi-chat');
+        const send_btn = parentDiv.querySelector('.options .bi-send');
+        const share_video_btn = parentDiv.querySelector('.options .bi-three-dots-vertical');
+        const like_btn_span = parentDiv.querySelectorAll('.options span');
+        const setting_tools_btn = document.querySelector('.acc_top_part .right_part .bi-list');
+
+        video[i].ondblclick = () => {
+            if(!(like_btn.classList.contains("bi-heart-fill"))){
+                setColor();
+            }
+        }
+
+        const like_counter = parentDiv.querySelector('.like_counter');
+        const comment_counter = parentDiv.querySelector('.comment_counter');
+        // const send_video = parentDiv.querySelector('.send_video');
+        const send_video = document.querySelector('.send_video');
+        const share_video = parentDiv.querySelector('.share_video');
+        const setting_tools = document.querySelector('.setting_tools');
+        like_btn.onclick = () => {
+            if(like_btn.classList.contains("bi-heart-fill")){
+                removeColor();
+            } else{
+                setColor();
+            }
+        }
+
+        for(let i = 0; i < like_btn_span.length; i++){
+            if(i == 0){
+                like_btn_span[0].onclick = () => {
+                    like_counter.classList.toggle("active");
+                }
+            } else {
+                like_btn_span[1].onclick = () => {
+                    comment_counter.classList.toggle("active");
+                }
+            }
+        }
+        comment_btn.onclick = () => {
+            comment_counter.classList.toggle("active");
+        }
+        send_btn.onclick = () => {
+            send_video.classList.toggle("active");
+        }
+        share_video_btn.onclick = () => {
+            share_video.classList.toggle("active");
+        }
+        setting_tools_btn.onclick = () => {
+            setting_tools.classList.toggle("active");
+        }
+
+        const like_close_btn = document.querySelectorAll('.bi-x-lg');
+        for(let counter_close of like_close_btn){
+            counter_close.onclick = close_counter;
+        }
+        function close_counter(){
+            like_counter.classList.remove('active');
+            comment_counter.classList.remove('active');
+            send_video.classList.remove('active');
+            share_video.classList.remove('active');
+            setting_tools.classList.remove('active');
+        }
+
+        // like reels video
+        function setColor(){
+            like_btn.className = "bi bi-heart-fill";
+            like_btn.style.color = "red";
+        }
+
+        // unlike reels video
+        function removeColor(){
+            like_btn.style.color = "#fff";
+                like_btn.classList.remove("bi-heart-fill");
+                like_btn.classList.add("bi-heart");
+        }
+    });
+    video[i].addEventListener("mouseleave", () => {
+        video[i].pause();
+    });
+}
+
+  </script>
+</body>
+</html>'
